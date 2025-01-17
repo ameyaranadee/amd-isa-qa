@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AMD ISA QA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <h1 class="title">QA on AMD ISA</h1>
+            <p class="subtitle">Ask anything about AMD’s latest GPU Instruction Set Architectures</p>
+        </header>
+        <main class="search-section">
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="What would you like to know?">
+                <button class="search-button">Search</button>
+            </div>
+            <section class="recent-searches">
+                <h2>Recent Searches</h2>
+                <!-- <div class="recent-search-item">
+                </div> -->
+            </section>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
